@@ -161,7 +161,7 @@ dt.light strong{
 	line-height:27px;
 	overflow:hidden;
 	padding-left:16px;
-	background:url("http://www.qnnsafes.com/templets/default/images/ico-2.gif") 7px 11px no-repeat;
+	background:url("/templets/default/images/ico-2.gif") 7px 11px no-repeat;
 }
 .c1 a{
 	color:#585858;
@@ -181,7 +181,7 @@ dt.light strong{
 	line-height:27px;
 	overflow:hidden;
 	padding-left:16px;
-	background:url("http://www.qnnsafes.com/templets/default/images/ico-2.gif") 7px 11px no-repeat;
+	background:url("/templets/default/images/ico-2.gif") 7px 11px no-repeat;
 }
 
 /*---------- d : 附加信息列表 ---------*/
@@ -245,7 +245,7 @@ dt.light strong{
 .d5 li{
 	height:41px;
 	line-height:41px;
-	background:url("http://www.qnnsafes.com/templets/default/images/ico-2.gif") 2px 17px no-repeat;
+	background:url("/templets/default/images/ico-2.gif") 2px 17px no-repeat;
 	padding-left:16px;
 }
 .d5 li a{
@@ -540,7 +540,7 @@ dt.light strong{
 }
 /*---------- f : 特殊列表 ---------*/
 .f1{/* 带数字ICO的排行榜列表 */
-	background:url("http://www.qnnsafes.com/templets/default/images/number-range.gif") 5px 5px no-repeat;
+	background:url("/templets/default/images/number-range.gif") 5px 5px no-repeat;
 	overflow:hidden;
 }
 .f1 li{
@@ -601,7 +601,7 @@ dt.light strong{
 	line-height:21px;
 	color:#888;
 	text-indent:17px;
-	background:url("http://www.qnnsafes.com/templets/default/images/ico-comment-quote.gif") 0px 4px no-repeat;
+	background:url("/templets/default/images/ico-comment-quote.gif") 0px 4px no-repeat;
 }
 
 .f4{/*友情链接(图片)专用*/
@@ -682,25 +682,25 @@ dt.light strong{
 	height:26px;
 	line-height:25px;
 	display:block;
-	background:url("http://www.qnnsafes.com/templets/default/images/nav.jpg");
+	background:url("/templets/default/images/nav.jpg");
 	color:#316301;
 	}
 .d6 li a:hover{
 	text-decoration:none;
 	}	
 .d6 li a.thisclass{
-	background:url("http://www.qnnsafes.com/templets/default/images/nav_a.jpg");
+	background:url("/templets/default/images/nav_a.jpg");
 	}
 /*-------------------------------------------------- 
  list icon
  ---------------------------------------------*/
 .ico1 li{
 	padding-left:16px;
-	background:url("http://www.qnnsafes.com/templets/default/images/ico-1.gif") 7px 11px no-repeat;
+	background:url("/templets/default/images/ico-1.gif") 7px 11px no-repeat;
 }
 .ico2 li{
 	padding-left:16px;
-	background:url("http://www.qnnsafes.com/templets/default/images/ico-2.gif") 6px 11px no-repeat;
+	background:url("/templets/default/images/ico-2.gif") 6px 11px no-repeat;
 }
 .ico3 li{
 	padding-left:16px;
@@ -720,7 +720,7 @@ li.dotline {
 	}
 .c_page a{
 	text-align:center;
-	background:url("http://www.qnnsafes.com/templets/default/images/page_bg.gif") #FBFBFB no-repeat;
+	background:url("/templets/default/images/page_bg.gif") #FBFBFB no-repeat;
 	width:16px;
 	height:15px;
 	line-height:15px;

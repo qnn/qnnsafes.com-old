@@ -1,4 +1,4 @@
-.suckerdiv{ background-image:url("http://www.qnnsafes.com/templets/default/images/logo1.jpg"); height:392px; margin:0 auto; width:960px;}
+.suckerdiv{ background-image:url("/templets/default/images/logo1.jpg"); height:392px; margin:0 auto; width:960px;}
 .suckerdiv ul { margin: 0; padding: 0; list-style-type: none; width: 210px;margin-left: 10px; /* Width of Menu Items */ border-bottom: 1px solid #ccc; }
 .suckerdiv ul li { position: relative; }
 /*1st level sub menu style */
@@ -6,10 +6,10 @@
 /*All subsequent sub menu levels offset */
 .suckerdiv ul li ul li ul { left: 135px; /* Parent menu width - 1*/ }
 /* menu links style */
-.suckerdiv ul li a { display: block; color: black; text-decoration: none;  background-image:url("http://www.qnnsafes.com/templets/default/images/logo_1.jpg"); padding: 1px 5px 0px 20px; border: 1px solid #ccc; border-bottom: 0; }
+.suckerdiv ul li a { display: block; color: black; text-decoration: none;  background-image:url("/templets/default/images/logo_1.jpg"); padding: 1px 5px 0px 20px; border: 1px solid #ccc; border-bottom: 0; }
 .suckerdiv ul li a:visited { color: black; }
-.suckerdiv ul li a:hover { color: white; background-color: gray; background-image:url("http://www.qnnsafes.com/templets/default/images/logo_2.jpg");}
-.suckerdiv .subfolderstyle { background: url("http://www.qnnsafes.com/templets/default/images/logo_1.jpg") no-repeat center right;padding-left: 18px; }
+.suckerdiv ul li a:hover { color: white; background-color: gray; background-image:url("/templets/default/images/logo_2.jpg");}
+.suckerdiv .subfolderstyle { background: url("/templets/default/images/logo_1.jpg") no-repeat center right;padding-left: 18px; }
 /* Holly Hack for IE \*/
 * html .suckerdiv ul li { float: left; height: 1%; }
 * html .suckerdiv ul li a { height: 1%; }
@@ -19,8 +19,8 @@
 /* home ÑשÊ½ */
 .home{ height:86px;}
 .home ul{list-style-type: none;}
-.home ul li{background: url("http://www.qnnsafes.com/templets/default/images/home_1.jpg"); height: 21px; padding-top: 8px; padding-left: 28px;}
-.home ul li:hover{background: url("http://www.qnnsafes.com/templets/default/images/logo_2.jpg");}
+.home ul li{background: url("/templets/default/images/home_1.jpg"); height: 21px; padding-top: 8px; padding-left: 28px;}
+.home ul li:hover{background: url("/templets/default/images/logo_2.jpg");}
 .home ul li a{ color:#FFFFFF;}
 .home ul li a:hover{ color:#999999;}
 

@@ -371,7 +371,7 @@ input,select,button{
 	border: 1px solid #93E1EB;
 	border-top: 0px solid #3CA2DC;
 	background-color: #FFF;
-	background:url("http://www.qnnsafes.com/templets/default/images/mmenubg.gif");
+	background:url("/templets/default/images/mmenubg.gif");
 	padding-top:6px;
 	padding-bottom:6px;
 }
@@ -496,7 +496,7 @@ input,select,button{
 	padding-left:20px;
 	letter-spacing:2px;
 	float:right;
-	background:url("http://www.qnnsafes.com/templets/default/images/ico-home.gif") 4px 10px no-repeat;
+	background:url("/templets/default/images/ico-home.gif") 4px 10px no-repeat;
 } 
 .channel-nav .back a{
 	color:#397CBE;
