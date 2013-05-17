@@ -1,0 +1,220 @@
+﻿
+/*********************放大镜配置文件*******************************************************************************************/
+
+/* Copyright 2008 MagicToolBox.com. To use this code on your own site, visit http://magictoolbox.com */
+
+/* CSS class for zoomed area */
+.MagicZoomBigImageCont {
+	border:			1px solid #91b817;
+}
+
+/* Header look and feel CSS class */
+/* header is shown if "title" attribute is present in the <A> tag */
+.MagicZoomHeader {
+	font:			12px Tahoma, Verdana, Arial, sans-serif;
+	color:			#fff;
+	background:		#91b817;
+	text-align:     center !important; 
+}
+
+
+/* CSS class for small looking glass square under mouse */
+.MagicZoomPup {
+	border: 		1px solid #aaa;
+	background: 	#ffffff;
+	cursor:			hand;
+}
+
+/* CSS style for loading animation box */
+.MagicZoomLoading {
+	text-align:		center;
+	background: 	#ffffff;
+	color:			#444;
+	border: 		1px solid #ccc;
+	opacity:		0.8;
+	padding:		3px 3px 3px 3px !important;
+	display: 		none; /* do not edit this line please */
+}
+
+/* CSS style for gif image in the loading animation box */
+.MagicZoomLoading img {
+	padding-top:	3px !important;
+}
+/* ©2008 MagicToolbox.com. To use this code on your own site, visit http://www.magictoolbox.com */
+
+/* CSS class for thumbnail link <A> */
+.MagicThumb {
+    cursor: url(images/zoomin.cur), pointer;
+    outline: none;
+}
+
+/* CSS class for the thumbnail link <A> when the big image is zoomed mo ban tang ban quan suo you */
+.MagicThumb-zoomed { cursor: default; }
+
+/* CSS class for span inside the thumbnail <A> */
+.MagicThumb span { display: none; }
+
+/* CSS class for the thumbnail image */
+.MagicThumb img { border: 1px solid #808080; outline: none; }
+
+/* CSS class for the big image while zooming */
+.MagicThumb-image { border: 1px solid #cccccc; outline: none; }
+
+/* CSS class for the zoomed big image */
+.MagicThumb-image-zoomed { cursor: url(images/zoomout.cur), pointer; }
+
+/* CSS class for the caption under the big zoomed image */
+.MagicThumb-caption {
+    color: #333333;
+    background-color: #F0F0F0;
+    border: 1px solid #CCCCCC;
+    border-top: none;
+    font-family: Verdana, Helvetica;
+    font-size: 11px;
+    padding: 8px 16px;
+}
+
+/* CSS class for the control bar ec mo ban */
+.MagicThumb-controlbar {
+	display: block;
+	height: 18px;
+}
+
+.MagicThumb-controlbar a {
+	display: block;
+	width: 18px;
+	height: 18px;
+	margin: 0px 1px;
+	outline: none;
+	float: left;
+	overflow: hidden;
+}
+
+.MagicThumb-controlbar a span {
+	display: block;
+	width: 1000px;
+	height: 1000px;
+	background: transparent url(images/controlbar.png) no-repeat 0 0;
+	outline: none;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+/* CSS class for the loading message box */
+.MagicThumb-loading {
+	border: 1px solid #000000;
+	background: #ffffff url(images/loader.gif) no-repeat 2px 50%;
+	padding: 2px 2px 2px 22px;
+	margin: 0;
+	text-decoration: none;
+	text-align: left;
+	font-size: 8pt;
+	font-family: sans-serif;
+}
+	.picture{
+
+	margin-top:10px;
+	text-align:left;
+
+	}
+	 .picture img{
+	width:50px;
+	height:50px;
+	cursor:pointer; 
+	margin:0 3px;
+	}
+	.picture img.onbg{ border:2px solid #ff9900;
+	
+	}
+	.picture img.autobg{
+	border:2px solid #fff;
+	
+	}
+	
+	
+	
+		
+	.left_help{ border:1px solid #e2e2e2;}
+	
+	.left_help dl{ padding:10px;}
+	.left_help dl dt{ font-weight:bold; font-size:12px; background:#e5e5e5; height:24px;line-height:24px; padding-left:10px;}
+	.left_help dl dt img{ vertical-align:middle }
+	.left_help dl dd{ padding-left:10px; padding-top:5px;}
+	.left_help dl a{ color:#666; text-decoration:none}
+	.left_help dl a:hover{ color:#1c7b3b}
+	
+	.art_cat_box{}
+.art_cat_box th{ height:26px;line-height:26px; }
+.art_cat_box td{ border-bottom:1px solid #dbdbdb; font-weight:normal}
+.art_cat_box td a{ font-weight:bold; color:#3f3f3f; padding-left:20px; }
+
+
+
+/* TAb    */
+.Tab1{
+	width:643px;
+	float:left;
+	}
+.tab2{
+	width:101px;
+	height:65px;
+	float:left;
+	}	
+.tab3{
+	width:640px;
+	float:left;
+	height:65px;
+	float:left;
+	}		
+/*菜单class*/
+.Menubox {
+  	height:28px;
+	line-height:26px;
+	margin-left:6px;
+	width:700px;
+	border-bottom:1px solid #333333;
+	}
+.Menubox ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	}
+.Menubox li{
+ 	float:left;
+	display:block;
+	cursor:pointer;
+ 	color:#000;
+	background-color:#f3f3f3;
+	}
+.Menubox li.hover{
+  	color:#ffffff;
+ 	height:28px;
+	width:153px;
+	line-height:26px;
+ 	margin:-2px 0 0 0;
+	background-color:#CC0000;
+	}
+.Menubox li span.li01{display:block;text-align:center;border:solid 1px #fff;padding:0 11px 0 11px;}
+.Menubox li span.li02{display:block;text-align:center;border:solid 1px #fff;padding:0 11px 0 11px;margin:0 -1px 0 -1px;}
+.Menubox li span.li03{display:block;text-align:center;border:solid 1px #fff;padding:0 11px 0 11px;margin:0 -0px 0 -0px;}
+.Menubox li span.li04{display:block;text-align:center;border:solid 1px #fff;padding:0 11px 0 11px;margin:0 0px 0 -1px;}
+.Menubox li span.li05{display:block;text-align:center;border:solid 1px #fff;padding:0 11px 0 11px;margin:0 0px 0 -1px;} 
+.Menubox li span.li06{display:block;text-align:center;border:solid 1px #fff;padding:0 11px 0 11px;margin:0 0px 0 -1px;} 
+.Menubox li span.li07{display:block;text-align:center;border:solid 1px #fff;padding:0 11px 0 11px;margin:0 -1px 0 -1px;}
+.Menubox li span:hover{
+	color:#fff;
+	background-color:#CC0000;
+	}
+.Contentbox{
+	clear:both;
+	width:640px;
+	text-align:left;
+ 	margin-top:0px;
+ 	height:auto;
+  	color:#000;
+	margin-left:50px;
+}
+
+
+
