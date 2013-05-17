@@ -1,0 +1,87 @@
+.suckerdiv{ background-image:url("http://www.qnnsafes.com/templets/default/images/logo1.jpg"); height:392px; margin:0 auto; width:960px;}
+.suckerdiv ul { margin: 0; padding: 0; list-style-type: none; width: 210px;margin-left: 10px; /* Width of Menu Items */ border-bottom: 1px solid #ccc; }
+.suckerdiv ul li { position: relative; }
+/*1st level sub menu style */
+.suckerdiv ul li ul { left: 199px; /* Parent menu width - 1*/ position: absolute; width: 210px; /*sub menu width*/ top: 0; display: none; }
+/*All subsequent sub menu levels offset */
+.suckerdiv ul li ul li ul { left: 135px; /* Parent menu width - 1*/ }
+/* menu links style */
+.suckerdiv ul li a { display: block; color: black; text-decoration: none;  background-image:url("http://www.qnnsafes.com/templets/default/images/logo_1.jpg"); padding: 1px 5px 0px 20px; border: 1px solid #ccc; border-bottom: 0; }
+.suckerdiv ul li a:visited { color: black; }
+.suckerdiv ul li a:hover { color: white; background-color: gray; background-image:url("http://www.qnnsafes.com/templets/default/images/logo_2.jpg");}
+.suckerdiv .subfolderstyle { background: url("http://www.qnnsafes.com/templets/default/images/logo_1.jpg") no-repeat center right;padding-left: 18px; }
+/* Holly Hack for IE \*/
+* html .suckerdiv ul li { float: left; height: 1%; }
+* html .suckerdiv ul li a { height: 1%; }
+/* End */
+
+
+/* home ÑùÊ½ */
+.home{ height:86px;}
+.home ul{list-style-type: none;}
+.home ul li{background: url("http://www.qnnsafes.com/templets/default/images/home_1.jpg"); height: 21px; padding-top: 8px; padding-left: 28px;}
+.home ul li:hover{background: url("http://www.qnnsafes.com/templets/default/images/logo_2.jpg");}
+.home ul li a{ color:#FFFFFF;}
+.home ul li a:hover{ color:#999999;}
+
+.Tab1{
+	width:643px;
+	float:left;
+	}
+.tab2{
+	width:101px;
+	height:65px;
+	float:left;
+	}	
+.tab3{
+	width:640px;
+	float:left;
+	height:65px;
+	float:left;
+	}		
+/*²Ëµ¥class*/
+.Menubox {
+  	height:20px;
+	line-height:20px;
+	margin-left:6px;
+	}
+.Menubox ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	}
+.Menubox li{
+ 	float:left;
+	display:block;
+	cursor:pointer;
+ 	color:#000;
+	background-color:#f3f3f3;
+	}
+.Menubox li.hover{
+  	color:#ffffff;
+ 	height:21px;
+	line-height:22px;
+ 	margin:-2px 0 0 0;
+	background-color:#CC0000;
+	}
+.Menubox li span.li01{display:block;text-align:center;border:solid 1px #fff;padding:0 11px 0 11px;}
+.Menubox li span.li02{display:block;text-align:center;border:solid 1px #fff;padding:0 11px 0 11px;margin:0 -1px 0 -1px;}
+.Menubox li span.li03{display:block;text-align:center;border:solid 1px #fff;padding:0 11px 0 11px;margin:0 -0px 0 -0px;}
+.Menubox li span.li04{display:block;text-align:center;border:solid 1px #fff;padding:0 11px 0 11px;margin:0 0px 0 -1px;}
+.Menubox li span.li05{display:block;text-align:center;border:solid 1px #fff;padding:0 11px 0 11px;margin:0 0px 0 -1px;} 
+.Menubox li span.li06{display:block;text-align:center;border:solid 1px #fff;padding:0 11px 0 11px;margin:0 0px 0 -1px;} 
+.Menubox li span.li07{display:block;text-align:center;border:solid 1px #fff;padding:0 11px 0 11px;margin:0 -1px 0 -1px;}
+.Menubox li span:hover{
+	color:#fff;
+	background-color:#CC0000;
+	}
+.Contentbox{
+	clear:both;
+	width:640px;
+	text-align:left;
+ 	margin-top:0px;
+ 	height:auto;
+  	color:#000;
+	margin-left:50px;
+}
+
