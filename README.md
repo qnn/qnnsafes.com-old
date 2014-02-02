@@ -7,6 +7,12 @@ This site is downloaded on May 16, 2013 using [SiteSucker 2.4.3](http://www.site
 
 Some functions may not work. Images are compressed using [crushimg.sh](https://gist.github.com/caiguanhao/4528926).
 
+If you want to view the website locally, cd to the repo directory and then run ``python -m SimpleHTTPServer 3000``.
+
+Please note that this repository is not being actively maintained.
+
+![qnnsafe](https://f.cloud.github.com/assets/1284703/2059750/09b40470-8bd0-11e3-81f3-f11979ff6b2a.jpg)
+
 Parser script
 -------------
 
